@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 5, "column": 0}, "map": {"version":3,"sources":["/turbopack/[project]/src/app/api/movies/route.ts"],"sourcesContent":["import { NextResponse } from \"next/server\";\nimport movies from \"../../../../public/data/movies.json\";\nexport async function GET(request: Request) {\n  return NextResponse.json(movies);\n}\n"],"names":[],"mappings":";;;;;;;;AAEO,eAAe,IAAI,OAAgB;IACxC,OAAO,gIAAA,CAAA,eAAY,CAAC,IAAI,CAAC,gGAAA,CAAA,UAAM;AACjC"}},
+    {"offset": {"line": 16, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}
