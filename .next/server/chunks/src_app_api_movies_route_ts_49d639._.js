@@ -7,12 +7,12 @@ __turbopack_esm__({
     "GET": ()=>GET
 });
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$server$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/server.js [app-route] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$data$2f$movies$2e$json__$28$json$29$__ = __turbopack_import__("[project]/public/data/movies.json (json)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$movies$2e$json__$28$json$29$__ = __turbopack_import__("[project]/public/movies.json (json)");
 "__TURBOPACK__ecmascript__hoisting__location__";
 ;
 ;
 async function GET(request) {
-    return __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$server$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["NextResponse"].json(__TURBOPACK__imported__module__$5b$project$5d2f$public$2f$data$2f$movies$2e$json__$28$json$29$__["default"]);
+    return __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$server$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["NextResponse"].json(__TURBOPACK__imported__module__$5b$project$5d2f$public$2f$movies$2e$json__$28$json$29$__["default"]);
 }
 
 })()),

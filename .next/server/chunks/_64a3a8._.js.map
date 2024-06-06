@@ -2,6 +2,6 @@
   "version": 3,
   "sources": [],
   "sections": [
-    {"offset": {"line": 10, "column": 0}, "map": {"version":3,"sources":["/turbopack/[project]/src/app/api/movies/route.ts"],"sourcesContent":["import { NextResponse } from \"next/server\";\nimport movies from \"../../../../public/data/movies.json\";\nexport async function GET(request: Request) {\n  return NextResponse.json(movies);\n}\n"],"names":[],"mappings":";;;;;;;;;;;;AAEO,eAAe,IAAI,OAAgB;IACxC,OAAO,gIAAA,CAAA,eAAY,CAAC,IAAI,CAAC;AAC3B"}},
-    {"offset": {"line": 25, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+    {"offset": {"line": 9, "column": 0}, "map": {"version":3,"sources":["/turbopack/[project]/src/app/api/movies/route.ts"],"sourcesContent":["import { NextResponse } from \"next/server\";\nimport movies from \"../../../../public/movies.json\";\nexport async function GET(request: Request) {\n  return NextResponse.json(movies);\n}\n"],"names":[],"mappings":";;;;;;;;AAEO,eAAe,IAAI,OAAgB;IACxC,OAAO,gIAAA,CAAA,eAAY,CAAC,IAAI,CAAC,wFAAA,CAAA,UAAM;AACjC"}},
+    {"offset": {"line": 20, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
 }
